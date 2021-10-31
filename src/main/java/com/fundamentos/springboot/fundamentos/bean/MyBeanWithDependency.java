@@ -1,5 +1,8 @@
 package com.fundamentos.springboot.fundamentos.bean;
 
 public interface MyBeanWithDependency {
-    void printWithDependency();
+    void printWithDependencySum();
+    void printWithDependencySubs();
+    void printWithDependencyMulti();
+    void printWithDependencyDiv();
 }

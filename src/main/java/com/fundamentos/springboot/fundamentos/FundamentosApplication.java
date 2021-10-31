@@ -28,6 +28,9 @@ public class FundamentosApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		componentDependency.saludar();
 		myBean.print();
-		myBeanWithDependency.printWithDependency();
+		myBeanWithDependency.printWithDependencySum();
+		myBeanWithDependency.printWithDependencySubs();
+		myBeanWithDependency.printWithDependencyMulti();
+		myBeanWithDependency.printWithDependencyDiv();
 	}
 }
